@@ -1,0 +1,27 @@
+# Ignore populated variable files
+terraform.tfvars
+terraform/variables.tf
+terraform/rds-variables.tf
+terraform/sg-variables.tf
+terraform/vpc-variables.tf
+terraform/*.state
+terraform/*.plan
+terraform.tfstate*
+account.json
+*.plan
+*.dot
+*.svg
+# ignore any tmp directories anyone might create
+tmp
+# ignore any keys that may end up in the repo
+*pub
+*pem
+# ignore existing terriform states
+*tfstate*
+# Ignore OS files and editor files
+*~
+*.swp
+*.swo
+.DS_Store
+.terraform/*
+*/.terraform/*
