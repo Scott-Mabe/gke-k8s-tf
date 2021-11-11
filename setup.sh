@@ -14,7 +14,7 @@ EOF
 
 terraform init
 
-
+# enable GCP APIs 
 gcloud services enable container.googleapis.com
 
 gcloud services enable compute.googleapis.com
