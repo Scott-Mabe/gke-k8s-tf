@@ -1,4 +1,4 @@
-How to use this folder 
+How to use this repo 
 
 Log into GCP Console Open Cloud Shell and clone this code.
 
