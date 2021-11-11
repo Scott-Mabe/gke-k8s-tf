@@ -7,10 +7,7 @@ clusterID="$(terraform output cluster_name)"
 gcloud config set compute/zone us-central1-a
 
 # Authenticate to your newly created cluster 
-gcloud container clusters get-credentials $clusterID
-
-# Copy Kubernetes terraform file to here so you can continue
-cp k8s-setup/k8s.tf .
+gcloud container clusters get-credentials terra-k8s
 
 # Moving tf init to here 
 terraform init
