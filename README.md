@@ -2,7 +2,7 @@ How to use this folder
 
 Log into GCP Console Open Cloud Shell and clone this code.
 
-cd into the ~/gke-cloudshell-demo/ folder
+cd into the ~/gke-k8s-tf/ folder
 
 run setup.sh 
 
